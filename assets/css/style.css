@@ -1,0 +1,293 @@
+/*
+/*
+@File: AndTour - Travel Agency HTML Template
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+/*================================================
+Default CSS
+=================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
+
+:root {
+    --main-color: #8B3EEA;
+    --white-color: #ffffff;
+    --black-color: #2B2540;
+    --navber-color: #424155;
+    --paragraph-color: #818090;
+    --bg-color: #F3F6FD;
+    --transition: .4s all ease-in-out;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+    transition: var(--transition);
+    outline: 0 !important;
+    color: var(--black-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--heading-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+}
+
+/* --Common Style-- */
+section {
+    position: relative;
+}
+
+.form-control {
+    height: 50px;
+    border: none;
+    box-shadow: 0px 1px 13px 0px #0000000d;
+    padding: 10px 22px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    color: var(--heading-color);
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    outline: none;
+    box-shadow: none;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-padding-top {
+    padding: 100px 0 0 0;
+}
+
+.section-padding-bottom {
+    padding: 0 0 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tour-search-header{
+    text-align: center;
+}
+
+.tour-search-header h2{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.tour-search-header h2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: 2px auto;
+    width: 80%;
+    border-top: 2px solid var(--main-color);
+}
+
+.tour-search-header h2{
+    text-align: center;
+}
+
+.filter-box{
+    border: 1px solid #dddddd85;
+    border-radius: 12px;
+    padding:16px 20px;
+    margin-bottom: 20px;
+}
+.filter-box h6{
+    border-bottom: 1px solid #dddddd85;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.filter-check-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.filter-check-box p{
+    color:var(--black-color);
+}
+.form-check .form-check-input{
+    border: 2px solid var(--black-color);
+}
+.rating {
+    display: inline-flex;
+    color: blue;
+}
+.map-box iframe{
+    width: 100%;
+}
+.map-box,.search-box{
+    margin-bottom: 20px;
+}
+.rating-text span{
+    margin-right: 10px;
+    color: var(--main-color);
+}
+.tour-card{
+border: 1px solid #dddddd85;
+border-radius: 16px;
+}
+.tour-card-body{
+    padding: 10px 10px;
+}
+.tour-card-body p a{
+    color: var(--paragraph-color);
+}
+.tour-card-img{
+    position: relative;
+}
+.tour-card-img h4{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: var(--white-color);
+}
+.tour-card-img h4 span{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+.pagination {
+    margin-top: 20px;
+}
+.page-link span i{
+    margin: 0px;
+}
+.pagination .page-item:first-child a,
+  .pagination .page-item:last-child a { 
+    color: var(--black-color);
+    
+}
+  
+  .pagination .page-item{
+     margin: 0  10px;
+ }
+ .pagination .page-item .page-link{
+   color: var(--paragraph-color);
+   border-radius: 8px;
+}
