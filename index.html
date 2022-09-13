@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <!-- owl.theme.default css -->
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-    
+    <!-- choise css  -->
     <link rel="stylesheet" href="assets/css/choice.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -80,8 +80,9 @@
                                 <input type="text" class="form-control" id="input_from" placeholder="2022-05-09">
                                 <p>Thursday</p>
                               </div>
+                              
                             <div class="form-group">
-                                <label for="input_from">Return date</label>
+                                <label for="input_to">Return date</label>
                                 <input type="text" class="form-control" id="input_to" placeholder="2022-05-09">
                                 <p>Saturday</p>
                               </div>
@@ -211,14 +212,14 @@
                       </div>
                       <div class="filter-box range-slider">
                         <h6>Filter by price</h6>
-                        <div class="filter-check-box">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
-                                    Ecotourism
-                                </label>
-                              </div>  
-                        </div>
+                            <div id='volume' class='slider'>
+                              <output class='slider-output'>$50</output>
+                              <div class='slider-track'>
+                                <div class='slider-thumb'></div>
+                                <div class='slider-level'></div>
+                              </div>
+                              <input class='slider-input' type='range' value='50' min='0' max='100' />
+                         </div>
                         <a href="#!">Apply</a>
                       </div>
                       <div class="filter-box">
@@ -751,6 +752,7 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- wow.js -->
     <script src="assets/js/wow.min.js"></script>
+    <!-- choice js -->
     <script src="assets/js/choice.js"></script>
     
         <!-- rome js  -->

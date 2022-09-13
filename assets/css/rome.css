@@ -64,7 +64,7 @@
 .rd-time-selected,
 .rd-time-option:hover {
   cursor: pointer;
-  background-color: #f67280;
+  background-color: var(--main-color);
   color: #fff;
   /* new */
   border-radius: 50%;
