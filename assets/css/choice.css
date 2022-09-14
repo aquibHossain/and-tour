@@ -87,7 +87,7 @@
 }
 
 .choices[data-type*=select-one].is-open:after {
-    border-color: transparent transparent #333;
+    border-color: transparent transparent var(--main-color);
     margin-top: -7.5px
 }
 

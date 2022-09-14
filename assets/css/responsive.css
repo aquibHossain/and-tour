@@ -20,7 +20,9 @@
       .newsletter-form .input-group button {
         padding: 8px 20px;
       }
-    
+      .divider{
+        margin: 0 20px 0 15px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -28,9 +30,18 @@
         font-size: 18px;
         margin: 10px 0;
     }
+    .search-bar-wrapper .form-control{
+      font-size: 20px;
+  }
+  .search-bar-wrapper .form-control{
+    font-size: 17px;
+}
 }
 
 @media (max-width: 992px) {
+  .search-bar-wrapper .form-control{
+    font-size: 20px;
+}
     .newsletter-left {
         margin-bottom: 20px;
       }
@@ -39,11 +50,12 @@
       }  
    .footer-first-area,   
   .footer-content {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
   }
   .footer-first-area li a{
     overflow-wrap:normal     
  }
+
 }
 
 @media (max-width: 767px) {
@@ -90,7 +102,12 @@
 }
 
 @media (max-width: 576px) {
-   
+  .search-bar-wrapper .choices__list--single .choices__item{
+    font-size: 20px;
+  }
+  .topbar-area{
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {

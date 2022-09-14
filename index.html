@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <!-- choise css  -->
     <link rel="stylesheet" href="assets/css/choice.css">
+    <!-- navbar css -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Responsive css -->
@@ -31,7 +33,62 @@
 <body>
 
     <!-- Code Here -->
-
+   <header class="andtour-header">
+     <!-- top bar  -->
+     <div class="topbar-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="topbar-left">
+              <ul class="topbar-list">
+                <li>
+                  <span class="social-media">
+                    <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#!"><i class="fab fa-twitter"></i></a>
+                    <a href="#!"><i class="fab fa-instagram"></i></a>
+                    <a href="#!"> <i class="fa-brands fa-linkedin-in"></i></a>
+                  </span>
+                </li>
+                <li>
+                  <a href="tel:+01123456789">+011 234 567 89</a>
+                </li>
+                <li>
+                  <a href="mailto:contact@domain.com">contact@domain.com</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="topbar-right">
+              <ul class="topbar-list">
+                <li><a href="#!">Login</a></li>
+                <li><a href="#!">Sign up</a></li>
+                <li class="d-flex align-items-center"><select class="form-select" aria-label="Default select example">
+                  <option selected>USD</option>
+                  <option value="1">One</option>
+                  <option value="2">BDT</option>
+                  <option value="3">TWO</option>
+                </select>
+                <i class="fa-solid fa-angle-down text-white"></i>
+              </li>
+                <li class="d-flex align-items-center"><select class="form-select" aria-label="Default select example">
+                  <option selected>English</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <i class="fa-solid fa-angle-down text-white ms-1"></i>
+                </li>
+                
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </header>
      <!-- title bar -->
      <section class="title-bar">
         <div class="container">
@@ -43,7 +100,7 @@
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                   <li class="breadcrumb-item active">
-                    Tours
+                    <i class="fa-solid fa-circle"></i> Tours
                   </li>
                 </ol>
               </nav>
@@ -80,7 +137,7 @@
                                 <input type="text" class="form-control" id="input_from" placeholder="2022-05-09">
                                 <p>Thursday</p>
                               </div>
-                              
+                              <div class="divider"></div>
                             <div class="form-group">
                                 <label for="input_to">Return date</label>
                                 <input type="text" class="form-control" id="input_to" placeholder="2022-05-09">
@@ -124,7 +181,7 @@
                 <div class="col-12 col-lg-3">
                    <div class="filter-area">
                     <div class="map-box">
-                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=and%20it&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=and%20it&t=&z=10&ie=UTF8&iwloc=&output=embed"></iframe>
                         <a href="#!"><i class="fa-solid fa-location-dot"></i
                             > View on map</a>
                     </div>
@@ -139,8 +196,8 @@
                         <h6>Tour type</h6>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminat">
+                                <label class="form-check-label" for="flexCheckIndeterminat">
                                     Ecotourism
                                 </label>
                               </div>
@@ -148,8 +205,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndetermina">
+                                <label class="form-check-label" for="flexCheckIndetermina">
                                     Ecotourism
                                 </label>
                               </div>
@@ -157,8 +214,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndetermin">
+                                <label class="form-check-label" for="flexCheckIndetermin">
                                     Ecotourism
                                 </label>
                               </div>
@@ -166,8 +223,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndetermi">
+                                <label class="form-check-label" for="flexCheckIndetermi">
                                     Ecotourism
                                 </label>
                               </div>
@@ -175,8 +232,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeter">
+                                <label class="form-check-label" for="flexCheckIndeter">
                                     Ecotourism
                                 </label>
                               </div>
@@ -187,24 +244,24 @@
                         <h6>Others</h6>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate1">
+                                <label class="form-check-label" for="flexCheckIndeterminate1">
                                     Ecotourism
                                 </label>
                               </div>  
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate2">
+                                <label class="form-check-label" for="flexCheckIndeterminate2">
                                     Ecotourism
                                 </label>
                               </div>
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate3">
+                                <label class="form-check-label" for="flexCheckIndeterminate3">
                                     Ecotourism
                                 </label>
                               </div>
@@ -226,8 +283,8 @@
                         <h6>Filter by review</h6>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label rating" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate4">
+                                <label class="form-check-label rating" for="flexCheckIndeterminate4">
                                     
                                         <i class="fa fa-star checked"></i>
                                         <i class="fa fa-star checked"></i>
@@ -240,8 +297,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label rating" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate5">
+                                <label class="form-check-label rating" for="flexCheckIndeterminate5">
                                     
                                         <i class="fa fa-star checked"></i>
                                         <i class="fa fa-star checked"></i>
@@ -254,8 +311,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label rating" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate6">
+                                <label class="form-check-label rating" for="flexCheckIndeterminate6">
                                     
                                         <i class="fa fa-star checked"></i>
                                         <i class="fa fa-star checked"></i>
@@ -269,8 +326,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label rating" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate7">
+                                <label class="form-check-label rating" for="flexCheckIndeterminate7">
                                     
                                         <i class="fa fa-star checked"></i>
                                         <i class="fa fa-star checked"></i>
@@ -283,8 +340,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label rating" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate8">
+                                <label class="form-check-label rating" for="flexCheckIndeterminate8">
                                     
                                         <i class="fa fa-star checked"></i>
                                         <i class="fa fa-star"></i>
@@ -300,8 +357,8 @@
                         <h6>Facilities</h6>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate9">
+                                <label class="form-check-label" for="flexCheckIndeterminate9">
                                     Ecotourism
                                 </label>
                               </div>
@@ -309,8 +366,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate10">
+                                <label class="form-check-label" for="flexCheckIndeterminate10">
                                     Ecotourism
                                 </label>
                               </div>
@@ -318,8 +375,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate11">
+                                <label class="form-check-label" for="flexCheckIndeterminate11">
                                     Ecotourism
                                 </label>
                               </div>
@@ -327,8 +384,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate12">
+                                <label class="form-check-label" for="flexCheckIndeterminate12">
                                     Ecotourism
                                 </label>
                               </div>
@@ -336,8 +393,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate18">
+                                <label class="form-check-label" for="flexCheckIndeterminate18">
                                     Ecotourism
                                 </label>
                               </div>
@@ -348,8 +405,8 @@
                         <h6>Hotel service</h6>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate13">
+                                <label class="form-check-label" for="flexCheckIndeterminate13">
                                     Ecotourism
                                 </label>
                               </div>
@@ -357,8 +414,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate14">
+                                <label class="form-check-label" for="flexCheckIndeterminate14">
                                     Ecotourism
                                 </label>
                               </div>
@@ -366,8 +423,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate15">
+                                <label class="form-check-label" for="flexCheckIndeterminate15">
                                     Ecotourism
                                 </label>
                               </div>
@@ -375,8 +432,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate16">
+                                <label class="form-check-label" for="flexCheckIndeterminate16">
                                     Ecotourism
                                 </label>
                               </div>
@@ -384,8 +441,8 @@
                         </div>
                         <div class="filter-check-box">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate17">
+                                <label class="form-check-label" for="flexCheckIndeterminate17">
                                     Ecotourism
                                 </label>
                               </div>
@@ -400,7 +457,7 @@
                             <div class="tour-card">
                                 <div class="tour-card-img">
                                     <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
+                                    <h3>$99.00 <span>Price starts from</span></h3>
                                 </div>
                                 <div class="tour-card-body">
                                     <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
@@ -413,13 +470,13 @@
                         <div class="col-12 col-lg-4 col-md-6">
                             <div class="tour-card">
                                 <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
+                                    <img src="assets/img/grid-card/g2.png" alt="tour">
+                                    <h3>$99.00 <span>Price starts from</span></h3>
                                 </div>
                                 <div class="tour-card-body">
                                     <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                                <h5><a href="#!">Explore the evergreen forest</a></h5>
+                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Amazon</a></p>
                                 <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
                                 </div>
                             </div>
@@ -427,143 +484,143 @@
                         <div class="col-12 col-lg-4 col-md-6">
                             <div class="tour-card">
                                 <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
+                                    <img src="assets/img/grid-card/g3.png" alt="tour">
+                                    <h3>$99.00 <span>Price starts from</span></h3>
                                 </div>
                                 <div class="tour-card-body">
                                     <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                                <h5><a href="#!">Family package</a></h5>
+                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Long island</a></p>
                                 <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
+                          <div class="tour-card">
+                              <div class="tour-card-img">
+                                  <img src="assets/img/grid-card/g1.png" alt="tour">
+                                  <h3>$99.00 <span>Price starts from</span></h3>
+                              </div>
+                              <div class="tour-card-body">
+                                  <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                              <h5><a href="#!">Explore the ancient china</a></h5>
+                              <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                              <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-4 col-md-6">
+                          <div class="tour-card">
+                              <div class="tour-card-img">
+                                  <img src="assets/img/grid-card/g2.png" alt="tour">
+                                  <h3>$99.00 <span>Price starts from</span></h3>
+                              </div>
+                              <div class="tour-card-body">
+                                  <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                              <h5><a href="#!">Explore the ancient china</a></h5>
+                              <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                              <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-4 col-md-6">
+                          <div class="tour-card">
+                              <div class="tour-card-img">
+                                  <img src="assets/img/grid-card/g3.png" alt="tour">
+                                  <h3>$99.00 <span>Price starts from</span></h3>
+                              </div>
+                              <div class="tour-card-body">
+                                  <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                              <h5><a href="#!">Explore the ancient china</a></h5>
+                              <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                              <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour-card">
+                            <div class="tour-card-img">
+                                <img src="assets/img/grid-card/g1.png" alt="tour">
+                                <h3>$99.00 <span>Price starts from</span></h3>
+                            </div>
+                            <div class="tour-card-body">
+                                <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                            <h5><a href="#!">Explore the ancient china</a></h5>
+                            <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                            <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour-card">
+                            <div class="tour-card-img">
+                                <img src="assets/img/grid-card/g2.png" alt="tour">
+                                <h3>$99.00 <span>Price starts from</span></h3>
+                            </div>
+                            <div class="tour-card-body">
+                                <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                            <h5><a href="#!">Explore the ancient china</a></h5>
+                            <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                            <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour-card">
+                            <div class="tour-card-img">
+                                <img src="assets/img/grid-card/g3.png" alt="tour">
+                                <h3>$99.00 <span>Price starts from</span></h3>
+                            </div>
+                            <div class="tour-card-body">
+                                <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                            <h5><a href="#!">Explore the ancient china</a></h5>
+                            <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                            <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-md-6">
-                            <div class="tour-card">
-                                <div class="tour-card-img">
-                                    <img src="assets/img/grid-card/g1.png" alt="tour">
-                                    <h4>$99.00 <span>Price starts from</span></h4>
-                                </div>
-                                <div class="tour-card-body">
-                                    <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
-                                <h5><a href="#!">Explore the ancient china</a></h5>
-                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
-                                <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                      <div class="tour-card">
+                          <div class="tour-card-img">
+                              <img src="assets/img/grid-card/g1.png" alt="tour">
+                              <h3>$99.00 <span>Price starts from</span></h3>
+                          </div>
+                          <div class="tour-card-body">
+                              <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                          <h5><a href="#!">Explore the ancient china</a></h5>
+                          <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                          <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6">
+                      <div class="tour-card">
+                          <div class="tour-card-img">
+                              <img src="assets/img/grid-card/g2.png" alt="tour">
+                              <h3>$99.00 <span>Price starts from</span></h3>
+                          </div>
+                          <div class="tour-card-body">
+                              <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                          <h5><a href="#!">Explore the ancient china</a></h5>
+                          <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                          <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6">
+                      <div class="tour-card">
+                          <div class="tour-card-img">
+                              <img src="assets/img/grid-card/g3.png" alt="tour">
+                              <h3>$99.00 <span>Price starts from</span></h3>
+                          </div>
+                          <div class="tour-card-body">
+                              <p class="small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                          <h5><a href="#!">Explore the ancient china</a></h5>
+                          <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                          <p class="rating-text"><span>4.8/5 Excellent</span>(1214 reviewes)</p>
+                          </div>
+                      </div>
+                  </div>
                         <div class="col-12">
                                 <div class="pagination-box">
                                     <nav class="pagination-area">
@@ -595,9 +652,6 @@
 </div>
     </section>
 
-
-
- 
   <!-- newsletter form -->
   <section class="newsletter-section section-padding">
     <div class="container">
@@ -648,7 +702,12 @@
                 </li>
                 <li>
                     <h5>Follow us on</h5>
-                    <a href="#!">+00 123 456 789</a>
+                    <span class="social-media">
+                      <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#!"><i class="fab fa-twitter"></i></a>
+                      <a href="#!"><i class="fab fa-instagram"></i></a>
+                      <a href="#!"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    </span>
                 </li>
                 </ul>
               </div>
@@ -726,6 +785,8 @@
       </div>
     </div>
   </footer>
+
+  <!-- copyright area  -->
   <div class="copyright-area">
     <div class="container">
       <div class="row align-items-center">

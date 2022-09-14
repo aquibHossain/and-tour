@@ -1,6 +1,13 @@
 $(function() {
     "use strict";
 
+    // navbar area 
+    $(window).on('scroll', function () {
+      if ($(this).scrollTop() > 10) { $('.navbar-area').addClass("is-sticky"); }
+      else { $('.navbar-area').removeClass("is-sticky"); }
+  });
+
+  
     //   date picker
     rome(input_from, {
         dateValidator: rome.val.beforeEq(input_to),
@@ -25,13 +32,6 @@ $(function() {
       window.onload= function () {
           sorting.parentElement.setAttribute('class', sortingClass);
       }
-
-
-
-
-
-
-
 
 
       
