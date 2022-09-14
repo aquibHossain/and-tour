@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>AND Tour</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+    <!-- rome css  -->
+    <link rel="stylesheet" href="assets/css/rome.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- owl.theme.default css -->
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <!-- choise css  -->
+    <link rel="stylesheet" href="assets/css/choice.css">
+    <!-- tippy css  -->
+    <link rel="stylesheet" href="assets/css/tippy.min.css">
+    <!-- navbar css -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+</head>
+
+<body>
+
+    <!-- Code Here -->
+   <header class="andtour-header">
+     <!-- top bar  -->
+     <div class="topbar-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="topbar-left">
+              <ul class="topbar-list">
+                <li>
+                  <span class="social-media">
+                    <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#!"><i class="fab fa-twitter"></i></a>
+                    <a href="#!"><i class="fab fa-instagram"></i></a>
+                    <a href="#!"> <i class="fa-brands fa-linkedin-in"></i></a>
+                  </span>
+                </li>
+                <li>
+                  <a href="tel:+01123456789">+011 234 567 89</a>
+                </li>
+                <li>
+                  <a href="mailto:contact@domain.com">contact@domain.com</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="topbar-right">
+              <ul class="topbar-list">
+                <li><a href="#!">Login</a></li>
+                <li><a href="#!">Sign up</a></li>
+                <li class="d-flex align-items-center"><select class="form-select" aria-label="Default select example">
+                  <option selected>USD</option>
+                  <option value="1">One</option>
+                  <option value="2">BDT</option>
+                  <option value="3">TWO</option>
+                </select>
+                <i class="fa-solid fa-angle-down text-white"></i>
+              </li>
+                <li class="d-flex align-items-center"><select class="form-select" aria-label="Default select example">
+                  <option selected>English</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <i class="fa-solid fa-angle-down text-white ms-1"></i>
+                </li>
+                
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </header>
+     <!-- title bar -->
+     <section class="title-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title-bar-content">
+                <h2>Tour search result</h2>
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">
+                    <i class="fa-solid fa-circle"></i> Tours
+                  </li>
+                </ol>
+              </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- search bar-area  -->
+<section class="search-bar-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+                <div class="search-bar-box">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="search-bar-wrapper destination">
+                            <div class="form-group">
+                                <label for="destination">Destination</label>
+                                <select class="selectpicker form-control" id="destination">
+                                    <option value="Alt">Where are you going?</option>
+                                    <option value="Right">Dhaka</option>
+                                    <option value="Left">Khulna</option>
+                                    <option value="Left">Jessore</option>
+                                </select>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="search-bar-wrapper date-pick">
+                            <div class="form-group">
+                                <label for="input_from">Journey date</label>
+                                <input type="text" class="form-control" id="input_from" placeholder="2022-05-09">
+                                <p>Thursday</p>
+                              </div>
+                              <div class="divider"></div>
+                            <div class="form-group">
+                                <label for="input_to">Return date</label>
+                                <input type="text" class="form-control" id="input_to" placeholder="2022-05-09">
+                                <p>Saturday</p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                        <div class="search-bar-wrapper">
+                            <div class="form-group">
+                                <label for="passengar">Passenger, Class </label>
+                                <input type="text" class="form-control" id="passengar" placeholder="1 Passenger">
+                                <p>Business</p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-12">
+                        <div class="search-button-area">
+                            <button class="btn">Search</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- tour search result area  -->
+    <section id="list-card-map" class="tour-search-result-area section-padding">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+     <div class="tour-search-result-header">
+        <h2>42 tours found</h2>
+     </div>
+        </div>
+        <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-5">
+                <div class="map-view">
+                  <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=and%20it&t=&z=10&ie=UTF8&iwloc=&output=embed"></iframe>
+                  <div class="map-container">
+                    
+                    <div class="point venezuela tippy" title="Explore the ancient china">$50</div>
+                    <div class="point brasil tippy" title="Explore the evergreen forest">$80</div>
+                    <div class="point argentina tippy" title="Explore the ancient china">$60</div>
+                    <div class="point colombia tippy" title="Explore the ancient china">$40</div>
+                    <div class="point panama tippy" title="Explore the evergreen forest">$30</div>
+                    <div class="point mexico tippy" title="Explore the ancient china">$80</div>
+                    <div class="point usa tippy" title="Explore the evergreen forest">$90</div>
+                    <div class="point arabia tippy" title="Explore the ancient china">$150</div>
+                    <div class="point turquia tippy" title="Explore the evergreen forest">$770</div>     
+                    <div class="point rusia tippy" title="Explore the ancient china">$50</div>
+                    <div class="point china tippy" title="Explore the evergreen forest">$50</div>
+                    <div class="point japon tippy" title="Explore the ancient china">$50</div>
+                    <div class="point australia tippy" title="Explore the evergreen forest">$50</div>
+                  </div>
+                </div>
+               
+                
+              </div>
+                <div class="col-12 col-md-12 col-lg-7 pe-lg-4 pe-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12">
+                            <div class="tour-card list-view">
+                               <div class="row g-0">
+                                <div class="col-12 col-md-5 col-lg-4">
+                                  <div class="tour-card-img">
+                                    <img src="./assets/img/list-card/l2.png" alt="tour">
+                                  </div>
+                                </div>
+                                <div class="col-12 col-md-7 col-lg-8">
+                                  <div class="list-card-body">
+                                    <div class="list-card-body-header">
+                                      <div class="card-title">
+                                        <p class="card-small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                                      <h4><a href="#!">Explore the ancient china</a></h4>
+                                      <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                                      </div>
+                                      <div class="list-rating">
+                                        <p class="rating-text">4.8/5 Excellent</p>
+                                        <p>(1214 reviewes)</p>
+                                        
+                                      </div>
+                                      
+                                    </div>
+                                    <div class="list-card-body-price">
+                                      <div class="price-content">
+                                        <p>Free cancellation</p>
+                                      <p>Cancel your booking at any time</p>
+                                      </div>
+                                      <div class="price-tag text-end">
+                                        <h3>$99.00 <span>/Per person</span></h3>
+                                        <p>+ $20.00 tax and vat</p>
+                                      </div>
+                                    </div>
+                                    <div class="list-card-body-footer">
+                                      <p><span>Breakfast</span> <span>Free wi fi</span> <span>Transport</span> <span>Gym</span></p>
+                                      <button class="btn">View details</button>
+                                    </div>
+                                  </div>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-12 col-md-12">
+                          <div class="tour-card list-view">
+                             <div class="row g-0">
+                              <div class="col-12 col-md-5 col-lg-4">
+                                <div class="tour-card-img">
+                                  <img src="./assets/img/list-card/l3.png" alt="tour">
+                                </div>
+                              </div>
+                              <div class="col-12 col-md-7 col-lg-8">
+                                <div class="list-card-body">
+                                  <div class="list-card-body-header">
+                                    <div class="card-title">
+                                      <p class="card-small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                                    <h4><a href="#!">Explore the evergreen forest</a></h4>
+                                    <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Amazon</a></p>
+                                    </div>
+                                    <div class="list-rating">
+                                      <p class="rating-text">4.8/5 Excellent</p>
+                                      <p>(1214 reviewes)</p>
+                                      
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="list-card-body-price">
+                                    <div class="price-content">
+                                      <p>Free cancellation</p>
+                                    <p>Cancel your booking at any time</p>
+                                    </div>
+                                    <div class="price-tag text-end">
+                                      <h3>$99.00 <span>/Per person</span></h3>
+                                      <p>+ $20.00 tax and vat</p>
+                                    </div>
+                                  </div>
+                                  <div class="list-card-body-footer">
+                                    <p><span>Breakfast</span> <span>Free wi fi</span> <span>Transport</span> <span>Gym</span></p>
+                                    <button class="btn">View details</button>
+                                  </div>
+                                </div>
+                              </div>
+                             </div>
+                          </div>
+                      </div>
+                      <div class="col-12 col-lg-12 col-md-12">
+                        <div class="tour-card list-view">
+                           <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-4">
+                              <div class="tour-card-img">
+                                <img src="./assets/img/list-card/l2.png" alt="tour">
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-8">
+                              <div class="list-card-body">
+                                <div class="list-card-body-header">
+                                  <div class="card-title">
+                                    <p class="card-small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                                  <h4><a href="#!">Explore the ancient china</a></h4>
+                                  <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                                  </div>
+                                  <div class="list-rating">
+                                    <p class="rating-text">4.8/5 Excellent</p>
+                                    <p>(1214 reviewes)</p>
+                                    
+                                  </div>
+                                  
+                                </div>
+                                <div class="list-card-body-price">
+                                  <div class="price-content">
+                                    <p>Free cancellation</p>
+                                  <p>Cancel your booking at any time</p>
+                                  </div>
+                                  <div class="price-tag text-end">
+                                    <h3>$99.00 <span>/Per person</span></h3>
+                                    <p>+ $20.00 tax and vat</p>
+                                  </div>
+                                </div>
+                                <div class="list-card-body-footer">
+                                  <p><span>Breakfast</span> <span>Free wi fi</span> <span>Transport</span> <span>Gym</span></p>
+                                  <button class="btn">View details</button>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-12 col-md-12">
+                      <div class="tour-card list-view">
+                         <div class="row g-0">
+                          <div class="col-12 col-md-5 col-lg-4">
+                            <div class="tour-card-img">
+                              <img src="./assets/img/list-card/l3.png" alt="tour">
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-7 col-lg-8">
+                            <div class="list-card-body">
+                              <div class="list-card-body-header">
+                                <div class="card-title">
+                                  <p class="card-small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                                <h4><a href="#!">Explore the ancient china</a></h4>
+                                <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                                </div>
+                                <div class="list-rating">
+                                  <p class="rating-text">4.8/5 Excellent</p>
+                                  <p>(1214 reviewes)</p>
+                                  
+                                </div>
+                                
+                              </div>
+                              <div class="list-card-body-price">
+                                <div class="price-content">
+                                  <p>Free cancellation</p>
+                                <p>Cancel your booking at any time</p>
+                                </div>
+                                <div class="price-tag text-end">
+                                  <h3>$99.00 <span>/Per person</span></h3>
+                                  <p>+ $20.00 tax and vat</p>
+                                </div>
+                              </div>
+                              <div class="list-card-body-footer">
+                                <p><span>Breakfast</span> <span>Free wi fi</span> <span>Transport</span> <span>Gym</span></p>
+                                <button class="btn">View details</button>
+                              </div>
+                            </div>
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-lg-12 col-md-12">
+                    <div class="tour-card list-view">
+                       <div class="row g-0">
+                        <div class="col-12 col-md-5 col-lg-4">
+                          <div class="tour-card-img">
+                            <img src="./assets/img/list-card/l2.png" alt="tour">
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-8">
+                          <div class="list-card-body">
+                            <div class="list-card-body-header">
+                              <div class="card-title">
+                                <p class="card-small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                              <h4><a href="#!">Explore the ancient china</a></h4>
+                              <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                              </div>
+                              <div class="list-rating">
+                                <p class="rating-text">4.8/5 Excellent</p>
+                                <p>(1214 reviewes)</p>
+                                
+                              </div>
+                              
+                            </div>
+                            <div class="list-card-body-price">
+                              <div class="price-content">
+                                <p>Free cancellation</p>
+                              <p>Cancel your booking at any time</p>
+                              </div>
+                              <div class="price-tag text-end">
+                                <h3>$99.00 <span>/Per person</span></h3>
+                                <p>+ $20.00 tax and vat</p>
+                              </div>
+                            </div>
+                            <div class="list-card-body-footer">
+                              <p><span>Breakfast</span> <span>Free wi fi</span> <span>Transport</span> <span>Gym</span></p>
+                              <button class="btn">View details</button>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12 col-md-12">
+                  <div class="tour-card list-view">
+                     <div class="row g-0">
+                      <div class="col-12 col-md-5 col-lg-4">
+                        <div class="tour-card-img">
+                          <img src="./assets/img/list-card/l3.png" alt="tour">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7 col-lg-8">
+                        <div class="list-card-body">
+                          <div class="list-card-body-header">
+                            <div class="card-title">
+                              <p class="card-small-text">7 nights 8 days tour <i class="fa-solid fa-circle"></i> Family tour</p>
+                            <h4><a href="#!">Explore the ancient china</a></h4>
+                            <p><a href="#!"><i class="fa-solid fa-location-dot"></i> Beijing, China</a></p>
+                            </div>
+                            <div class="list-rating">
+                              <p class="rating-text">4.8/5 Excellent</p>
+                              <p>(1214 reviewes)</p>
+                              
+                            </div>
+                            
+                          </div>
+                          <div class="list-card-body-price">
+                            <div class="price-content">
+                              <p>Free cancellation</p>
+                            <p>Cancel your booking at any time</p>
+                            </div>
+                            <div class="price-tag text-end">
+                              <h3>$99.00 <span>/Per person</span></h3>
+                              <p>+ $20.00 tax and vat</p>
+                            </div>
+                          </div>
+                          <div class="list-card-body-footer">
+                            <p><span>Breakfast</span> <span>Free wi fi</span> <span>Transport</span> <span>Gym</span></p>
+                            <button class="btn">View details</button>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+              </div>
+                        <div class="col-12">
+                                <div class="pagination-box">
+                                    <nav class="pagination-area">
+                                        <ul class="pagination">
+                                          <li class="page-item">
+                                            <a class="page-link" href="#!" aria-label="Previous">
+                                              <span ><i class="fa fa-angle-left"></i></span>
+                                            </a>
+                                          </li>
+                                          <li class="page-item"><a class="page-link active" href="#!">1</a></li>
+                                          <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                                          <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                                          <li class="page-item"><a class="page-link" href="#!">4</a></li>
+                                          <li class="page-item"><a class="page-link" href="#!">5</a></li>
+                                          <li class="page-item">
+                                            <a class="page-link" href="#!" aria-label="Next">
+                                              <span><i class="fa fa-angle-right"></i></span>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </nav>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+  <!-- newsletter form -->
+  <section class="newsletter-section section-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-12 col-lg-7">
+          <div class="newsletter-left">
+            <div class="mail-img">
+              <img src="./assets/img/icon/mail.png" alt="mail image" />
+            </div>
+            <div class="newsletter-content">
+              <p>Get the latest news and business info</p>
+              <h4>Subscribe to our newsletter</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-5">
+          <div class="newsletter-right">
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter your mail address">
+                <button class="btn" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- footer section  -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-first-area">
+            <div class="footer-heading-area">
+                <h4>Need any help?</h4>
+              </div>
+              <div class="footer-link-area">
+                <ul>
+                  <li>
+                    <h5>Call 24/7 for any help</h5>
+                    <a href="tel:+00123456789">+00 123 456 789</a>
+                </li>
+                <li>
+                    <h5>Mail to our support team</h5>
+                    <a href="mailto:support@domain.com">support@domain.com</a>
+                </li>
+                <li>
+                    <h5>Follow us on</h5>
+                    <span class="social-media">
+                      <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#!"><i class="fab fa-twitter"></i></a>
+                      <a href="#!"><i class="fab fa-instagram"></i></a>
+                      <a href="#!"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    </span>
+                </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+          <div class="footer-content">
+            <div class="footer-heading-area">
+              <h4>Company</h4>
+            </div>
+            <div class="footer-link-area">
+              <ul>
+                <li><a href="#!">About Us</a></li>
+                <li><a href="#!">Community Blog</a></li>
+                <li><a href="#!">Rewards</a></li>
+                <li><a href="#!">Work with Us</a></li>
+                <li><a href="#!">Meet the Team</a></li>
+                <li><a href="#!">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+          <div class="footer-content">
+            <div class="footer-heading-area">
+              <h4>Support</h4>
+            </div>
+            <div class="footer-link-area">
+              <ul>
+                <li><a href="#!">Account</a></li>
+                <li><a href="#!">Faq</a></li>
+                <li><a href="#!">Legal</a></li>
+                <li><a href="#!">Contact</a></li>
+                <li><a href="#!">Affiliate Program</a></li>
+                <li><a href="#!">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+          <div class="footer-content">
+            <div class="footer-heading-area">
+              <h4>Services</h4>
+            </div>
+            <div class="footer-link-area">
+              <ul>
+                <li><a href="#!">Community program</a></li>
+                <li><a href="#!">Investor Relations</a></li>
+                <li><a href="#!">Rewards Program</a></li>
+                <li><a href="#!">PointsPLUS</a></li>
+                <li><a href="#!">Partners</a></li>
+                <li><a href="#!">List My Hotel</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+            <div class="footer-content">
+              <div class="footer-heading-area">
+                <h4>Top cities</h4>
+              </div>
+              <div class="footer-link-area">
+                <ul>
+                  <li><a href="#!">Chicago</a></li>
+                  <li><a href="#!">New York</a></li>
+                  <li><a href="#!">San Francisco</a></li>
+                  <li><a href="#!"> California</a></li>
+                  <li><a href="#!">Ohio</a></li>
+                  <li><a href="#!">Alaska</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- copyright area  -->
+  <div class="copyright-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="co-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="copyright-left">
+            <p>Copyright © 2022 All Rights Reserved</p>
+          </div>
+        </div>
+        <div class="co-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="copyright-right">
+            <a href="#!"><img src="assets/img/icon/visa-card.png" alt="visa card"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- owl carousel js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- wow.js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- choice js -->
+    <script src="assets/js/choice.js"></script>
+    <!-- tippy js  -->
+    <script src="./assets/js/tippy.min.js"></script>
+        <!-- rome js  -->
+        <script src="assets/js/rome.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

@@ -23,6 +23,11 @@
       .divider{
         margin: 0 20px 0 15px;
     }
+    .list-card-body-footer p span{
+      padding: 5px 9px;
+      font-size: 12px;
+      margin-right: 5px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -30,12 +35,14 @@
         font-size: 18px;
         margin: 10px 0;
     }
-    .search-bar-wrapper .form-control{
-      font-size: 20px;
-  }
+  
   .search-bar-wrapper .form-control{
-    font-size: 17px;
+    font-size: 15px;
 }
+.list-card-body-footer .btn{ 
+  padding:7px 18px;
+}
+
 }
 
 @media (max-width: 992px) {
@@ -55,7 +62,26 @@
   .footer-first-area li a{
     overflow-wrap:normal     
  }
+ .list-card-body-footer .btn{
+  margin-top: 10px;
+ }
+ .price-tag{
+  margin-top: 5px;
+text-align: left!important;
+ }
+ .list-card-body-price{
+  margin:3px 0 6px 0;
+  }
 
+.tour-card-img img{
+  height: 315px;
+}
+#list-card-map .tour-card-img img{
+  height: 266px;
+}
+.card-title h4{
+  font-size: 18px;
+}
 }
 
 @media (max-width: 767px) {
@@ -99,6 +125,15 @@
   .footer-link-area {
     padding-top: 0px;
   }
+  .list-view .tour-card-img{
+    border-radius:12px 12px 0px 0px;
+}
+.tour-card{
+  border-radius: 26px;
+}
+.tour-card-img img{
+  height: auto;
+}
 }
 
 @media (max-width: 576px) {
@@ -107,6 +142,15 @@
   }
   .topbar-area{
     display: none;
+  }
+  .list-rating p:nth-child(2),
+  .list-card-body-price p:nth-child(2),
+  .price-tag p{
+    display: none;
+  }
+
+  .card-title h4{
+    font-size: 20px;
   }
 }
 
