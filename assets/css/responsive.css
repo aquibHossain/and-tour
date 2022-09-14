@@ -73,7 +73,7 @@ text-align: left!important;
   margin:3px 0 6px 0;
   }
 
-.tour-card-img img{
+  .list-view .tour-card-img img{
   height: 315px;
 }
 #list-card-map .tour-card-img img{

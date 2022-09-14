@@ -754,7 +754,7 @@ margin:15px 0 15px 0;
 .list-card-body-footer .btn{ 
     padding:9px 25px;
 }
-.tour-card-img img{
+.list-view .tour-card-img img{
     height: 254px;
 }
 .list-rating .rating-text,
