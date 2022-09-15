@@ -23,7 +23,7 @@
       .divider{
         margin: 0 20px 0 15px;
     }
-    .list-card-body-footer p span{
+    .list-card-body-footer ul li{
       padding: 5px 9px;
       font-size: 12px;
       margin-right: 5px;
@@ -61,7 +61,7 @@
   .footer-content {
     padding-bottom: 20px;
   }
-  .footer-first-area li a{
+  .footer-first-area .footer-inquery a{
     overflow-wrap:normal     
  }
  .list-card-body-footer .btn{
@@ -82,8 +82,8 @@ text-align: left!important;
     .pagination .page-item{
         margin: 0  0px;
     }
-    .mail-img img{
-        width: 80%;
+    .mail-img{
+        width: 30%;
         }
         .newsletter-left {
             text-align: center;
@@ -147,7 +147,15 @@ text-align: left!important;
     font-size: 20px;
   }
   .list-card-body-price{
-    margin:8px 0;
+    margin:0 0 8px 0;
+    }
+    .list-card-body-price .price-tag h3{
+      font-size: 20px;
+    }
+    .list-card-body-header,
+    .list-card-body-price,
+    .list-card-body-footer{
+        align-items: center;
     }
 }
 

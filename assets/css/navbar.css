@@ -29,7 +29,7 @@
     margin-left: 8px;
 }
 .topbar-list li {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     border-right: 1px solid #dddddd73;
@@ -39,13 +39,20 @@
 .topbar-list li a{
    color: var(--white-color);
 }
+.topbar-list li a:hover{
+  color: var(--black-color);
+}
+.topbar-area .social-media a i{
+  background-color: transparent;
+}
+.topbar-area .social-media a i:hover{
+  background-color: transparent;
+  color: black;
+}
 .topbar-list li{
     position: relative;
  }
-.topbar-list li a:hover{
-    color: var(--black-color);
-   
- }
+
 .topbar-list li:first-child {
   padding-left: 0px;
 }
