@@ -3,8 +3,9 @@ $(function() {
 
     // navbar area 
     $(window).on('scroll', function () {
-      if ($(this).scrollTop() > 10) { $('.andtour-navbar').addClass("is-sticky"); }
-      else { $('.andtour-navbar').removeClass("is-sticky"); }
+      if ($(this).scrollTop() > 10) { $('.andtour-navbar').addClass("is-sticky"); $('.nav-btn').addClass("bg-white text-dark") }
+      else { $('.andtour-navbar').removeClass("is-sticky");
+      $('.nav-btn').removeClass("bg-white text-dark")  }
   });
   $(".site-menu-toggle").on("click", function () { $(".menu-overlay").toggleClass("menu-overlay-active"); });
   $(".menu-overlay-close").on("click", function () { $(".menu-overlay").removeClass("menu-overlay-active"); });
